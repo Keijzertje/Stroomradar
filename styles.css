@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+header {
+    background: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.logo {
+    height: 40px;
+    vertical-align: middle;
+}
+main {
+    padding: 1rem;
+}
+.filters {
+    margin-bottom: 1rem;
+}
+.results .item {
+    background: white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
