@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StroomRadar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="StroomRadar logo" class="logo">
+        <h1>StroomRadar</h1>
+    </header>
+    <main>
+        <section class="filters">
+            <label for="type">Type contract:</label>
+            <select id="type">
+                <option value="">Alle</option>
+                <option value="vast">Vast</option>
+                <option value="variabel">Variabel</option>
+            </select>
+        </section>
+        <section id="results" class="results">Laden...</section>
+    </main>
+    <footer>© 2025 StroomRadar</footer>
+    <script src="script.js"></script>
+</body>
+</html>

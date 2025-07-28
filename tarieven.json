@@ -1,0 +1,6 @@
+[
+    {"aanbieder": "EnergieNL", "type": "vast", "prijs": 0.342},
+    {"aanbieder": "GroenStroom", "type": "variabel", "prijs": 0.295},
+    {"aanbieder": "BudgetEnergie", "type": "vast", "prijs": 0.336},
+    {"aanbieder": "MegaStroom", "type": "variabel", "prijs": 0.302}
+]
